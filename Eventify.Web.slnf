@@ -1,0 +1,13 @@
+{
+  "solution": {
+    "path": "Eventify.sln",
+    "projects": [
+      "src\\Client\\Eventify.Client.Core\\Eventify.Client.Core.csproj",
+      "src\\Client\\Eventify.Client.Web\\Eventify.Client.Web.csproj",
+      "src\\Server\\Eventify.Server.Api\\Eventify.Server.Api.csproj",
+      "src\\Server\\Eventify.Server.Web\\Eventify.Server.Web.csproj",
+      "src\\Shared\\Eventify.Shared.csproj",
+      "src\\Tests\\Eventify.Tests.csproj"
+    ]
+  }
+}

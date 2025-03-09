@@ -1,0 +1,73 @@
+{
+    "profiles": {
+        "Eventify.Server.Web": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "dotnetRunMessages": true,
+            "applicationUrl": "http://localhost:5000"
+        },
+        "Eventify.Server.Web-Swagger": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "dotnetRunMessages": true,
+            "applicationUrl": "http://localhost:5000"
+        },
+        "Eventify.Server.Web-BlazorWebAssembly": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "WebAppRender:BlazorMode": "BlazorWebAssembly"
+            },
+            "dotnetRunMessages": true,
+            "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
+            "applicationUrl": "http://localhost:5000"
+        },
+        "WSL": {
+            "commandName": "WSL2",
+            "launchBrowser": true,
+            "launchUrl": "http://localhost:5000/",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://localhost:5000"
+            }
+        },
+        "Docker": {
+            "commandName": "SdkContainer",
+            "launchBrowser": true,
+            "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/",
+            "environmentVariables": {
+                "ASPNETCORE_HTTP_PORTS": "5000",
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ConnectionStrings__SqliteConnectionString": "Data Source=/container_volume/App_Data/EventifyDb.db;"
+            },
+            "DockerfileRunArguments": "-v C:\\DockerVolumes\\D5C5B44C-AD71-41B4-807D-8D878D81F76C:/container_volume",
+            "publishAllPorts": true,
+            "useSSL": false,
+            "httpPort": 5000
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    },
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:57278/",
+            "httpPort": 5000
+        }
+    },
+    "$schema": "http://json.schemastore.org/launchsettings.json"
+}

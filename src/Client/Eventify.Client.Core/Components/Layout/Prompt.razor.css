@@ -1,0 +1,1 @@
+section{padding:1rem;min-width:20rem;max-height:var(--bit-env-height-avl)}@media screen and (max-width: 959px){section{min-width:unset}}.body{width:100%;flex-grow:1;display:flex;overflow:auto;white-space:pre}::deep .stack{max-height:calc(var(--bit-env-height-avl) - 3rem)}/*# sourceMappingURL=Prompt.razor.css.map */

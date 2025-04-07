@@ -566,7 +566,7 @@
     <value>برو به امروز</value>
   </data>
     <data name="HomeMessage" xml:space="preserve">
-    <value>برنامه blazor مالتی مد (WASM, Server, Hybrid, pre-rendering) خود را به آسانی و در سریع‌ترین زمان بسازید</value>
+    <value>رویدادهای خود را به آسانی بسازید و مدیریت کنید و آن را شرکت کنندگان ارایه دهید و از امتیازات آن بهره مند شوید</value>
   </data>
     <data name="DescriptionMetaTagValue" xml:space="preserve">
     <value>پروژه Eventify با ASP.NET Core, Identity, Web API, EF Core و Blazor ساخته شده</value>
@@ -575,8 +575,8 @@
     <value>خانه</value>
   </data>
     <data name="HomePanelTitle" xml:space="preserve">
-    <value>تمام اپهای خود را بسازید</value>
-  </data>
+        <value>تمام رویدادهای خود را بسازید و مدیریت کنید</value>
+    </data>
     <data name="HomePanelSubtitle" xml:space="preserve">
     <value>با استفاده چیزی که میدانید و دوستش دارید</value>
   </data>
@@ -1180,4 +1180,7 @@
     <data name="InvalidGoogleRecaptchaChallenge" xml:space="preserve">
     <value>شما باید چالش گوگل ریکپچا را به سرانجام برسانید.</value>
   </data>
+    <data name="EventifyMessage" xml:space="preserve">
+        <value>یک بستر برای مدیریت آسان رویدادها برای برگزار کنندگان رویداد و شرکت کنندگان</value>
+    </data>
 </root>

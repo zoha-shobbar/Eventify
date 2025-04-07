@@ -566,14 +566,14 @@
     <value>Go to today</value>
   </data>
     <data name="HomeMessage" xml:space="preserve">
-    <value>Create your multi-mode (WASM, Server, Hybrid, pre-rendering) Blazor app easily in the shortest time ever!</value>
+    <value>Easily create and manage your events, present them to participants, and benefit from their benefits.</value>
   </data>
     <data name="HomePageTitle" xml:space="preserve">
     <value>Home</value>
   </data>
     <data name="HomePanelTitle" xml:space="preserve">
-    <value>Build all of your apps</value>
-  </data>
+        <value>Create and manage all of your events</value>
+    </data>
     <data name="HomePanelSubtitle" xml:space="preserve">
     <value>using what you already know and love</value>
   </data>
@@ -1180,4 +1180,7 @@
     <data name="InvalidGoogleRecaptchaChallenge" xml:space="preserve">
     <value>You need to pass the Google reCAPTCHA challenge.</value>
   </data>
+    <data name="EventifyMessage" xml:space="preserve">
+        <value>A platform for easy event management for event organizers and attendees</value>
+    </data>
 </root>

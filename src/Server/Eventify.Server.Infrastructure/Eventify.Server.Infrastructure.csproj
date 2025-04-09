@@ -6,4 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Remove="Microsoft.Extensions.Configuration.Binder" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Eventify.Server.Application\Eventify.Server.Application.csproj" />
+    </ItemGroup>
+
 </Project>
